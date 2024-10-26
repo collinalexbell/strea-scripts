@@ -36,67 +36,12 @@ A collection of scripts and tools for managing YouTube streaming presentations, 
    pip install -r requirements.txt
    ```
 
-3. Configure your settings in `config.json`
-
-## 📜 Available Scripts
-
-### Stream Start Timer
-```bash
-python scripts/start_timer.py --duration 5
-```
-Displays a countdown timer for stream start with custom animations.
-
-### Break Timer
-```bash
-python scripts/break_timer.py --minutes 10 --message "Be Right Back!"
-```
-Shows a break timer with customizable duration and message.
-
-### Stream End Sequence
-```bash
-python scripts/end_sequence.py
-```
-Triggers the end of stream sequence with fade-out effects.
-
-## ⚙️ Configuration
-
-Edit `config.json` to customize:
-- Timer fonts and colors
-- Display messages
-- Animation effects
-- Overlay positions
-
-Example configuration:
-```json
-{
-  "timer": {
-    "font": "Arial",
-    "size": 48,
-    "color": "#ffffff"
-  }
-}
-```
-
-## 🎨 Customization
-
-### Adding Custom Overlays
-
-1. Place your overlay images in the `assets` folder
-2. Reference them in your script:
-   ```python
-   overlay_path = "assets/your_overlay.png"
-   ```
-
-### Creating New Timer Styles
-
-Modify the CSS in `styles/timers.css` to create custom timer appearances.
-
 ## 📝 Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create your feature branch (`git checkout -b descriptive-feature-name`)
+3. Commit your changes (`git commit -m 'wtf i just did'`)
+4. Push to the branch (`git push origin descriptive-feature-name`)
 5. Open a Pull Request
 
 ## 📜 License
@@ -107,11 +52,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - OBS Studio for streaming software integration
 - Python community for various helpful packages
-- Contributors and bug reporters
 
 ## 📞 Support
 
 For issues and feature requests, please use the GitHub issues tracker.
 
 ---
-Made with ❤️ for the streaming community
