@@ -1,6 +1,6 @@
 # Stream Scripts Collection
 
-![Stream Banner](stream.jpg)
+![Stream Banner](stream.png)
 
 A collection of scripts and tools for managing YouTube streaming presentations, including timers and stream break displays.
 
